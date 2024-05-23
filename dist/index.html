@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="">
-    <title>Portfolio | Faizan Khan</title>
+    <title>Portfolio | Faizan Khan</title>
+
 
     <!-- for projects image slider -->
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -86,7 +87,7 @@
 
 
             <!-- download resume -->
-            <a href="/Faizan Khan CV.pdf"><button style="background-color: gold;"
+            <a href="/assets/Faizan Khan CV.pdf"><button style="background-color: gold;"
                 class="p-3 mb-6 rounded-md hover:shadow-md hover:shadow-gray-500 transition-all ease-in duration-[400ms]">
                 Download Resume
             </button></a>
@@ -358,9 +359,9 @@
         Alpine.data("imageSlider", () => ({
             currentIndex: 1,
             images: [
-                "/images/avengers_website.png",
-                "/images/microsoft_clone.png",
-                "/images/studysage.png",
+                "/assets/avengers_website.png",
+                "/assets/microsoft_clone.png",
+                "/assets/studysage.png",
             ],
             previous() {
                 if (this.currentIndex > 1) {
